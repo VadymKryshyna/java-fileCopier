@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FileCopier:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FileCopier_jar</output-path>
+    <root id="archive" name="FileCopier.jar">
+      <element id="module-output" name="FileCopier" />
+    </root>
+  </artifact>
+</component>
