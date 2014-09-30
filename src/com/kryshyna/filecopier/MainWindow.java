@@ -99,7 +99,6 @@ public class MainWindow extends JFrame {
         buttonCopy.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //worker.execute();
                 repaint();
                 if(textFrom.getText().length() == 0 || textTo.getText().length() == 0){
                     JOptionPane.showMessageDialog(null, "Please check selected source and destination");
