@@ -16,11 +16,9 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 /**
- * Created with IntelliJ IDEA.
- * User: vadim
+ * @Author: Vadym Kryshyna
  * Date: 29.09.14
  * Time: 12:38
- * To change this template use File | Settings | File Templates.
  */
 public class MainWindow extends JFrame {
     public static void main(String[] args) {
@@ -45,9 +43,6 @@ public class MainWindow extends JFrame {
         JButton buttonTo = new JButton("to");
         JButton buttonCopy = new JButton("Start copy");
 
-//        final JProgressBar progressBar = new JProgressBar();
-//        progressBar.setIndeterminate(true);
-//        progressBar.setIndeterminate(false);
 
         JMenuBar menuBar = new JMenuBar();
         JMenu menu = new JMenu("Menu");
@@ -71,22 +66,8 @@ public class MainWindow extends JFrame {
         this.add(textTo);
         this.add(buttonTo);
         this.add(checkZip);
-//        this.add(progressBar);
         this.add(buttonCopy);
 
-//        final SwingWorker worker = new SwingWorker() {
-//            @Override
-//            protected Object doInBackground() throws Exception {
-//                progressBar.setIndeterminate(true);
-//                return null;  //To change body of implemented methods use File | Settings | File Templates.
-//            }
-//
-//            @Override
-//            protected void done() {
-//                progressBar.setIndeterminate(false);
-//            }
-//
-//        };
 
         menuItemAbout.addActionListener(new ActionListener() {
             @Override
